@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 7;
+}
+
+#menu ul {
+    margin: 0;
+    background-color: #000000;
+    list-style: none;
+    text-align: left;
+    font-size: medium;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 15px 25px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: #2ff371;
+}
+
+.corpo {
+    width: 960px;
+    margin: auto;
+}
+
+.conteudo {
+    display: table;
+}
+
+.imagem {
+    display: table-cell;
+    float: left;
+}
+
+.texto {
+    display: table-cell;
+    float: left;
+    width: 400px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+#textcss {
+    color: #000000;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    /*flex-wrap: wrap; // Usado para deixar os elementos se agrupando a melhor performace, de acordo com que a pagina vai ficando piquena, esta Tag faz com que a pagina fique mais responsiva!!  */
+    flex-wrap: wrap;
+    /* flex-direction:row */
+}
+
+.produto {
+    cursor: pointer;
+    /* margin-bottom: 5px; */
+    /* border: 1px solid red; */
+}
+
+.produto p {
+    background: #d84c72;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 10px;
+}
+
+
+/* .produto p:hover O elemento p que está dentro de outro elemento com a clese produto/ Aplicara um funcionalidade  */
+
+
+/* .produto p:hover {
+    transform: rotate(-4deg);
+} */
+
+#clas {
+    color: black;
+    text-align: center;
+}
